@@ -1,0 +1,9 @@
+<svg width="1440" height="200" viewBox="0 0 1440 200" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#007bff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4b6cb7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path d="M0,100 Q144,50 288,100 T576,100 T864,100 T1152,100 T1440,100 L1440,200 L0,200 Z" fill="url(#waveGradient)" />
+</svg>
