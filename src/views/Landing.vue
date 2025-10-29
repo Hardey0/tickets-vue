@@ -166,13 +166,13 @@ export default defineComponent({
 .landing {
   position: relative;
   min-height: 100vh;
-  width: 100%;
+  width: 98%;
   background: #e9ecef;
 }
 
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -478,6 +478,7 @@ export default defineComponent({
   padding: 15px 0 !important;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  width:70%;
 }
 
 .cta-section .btn:hover,
@@ -486,6 +487,7 @@ export default defineComponent({
   transform: translateY(-3px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
+
 
 @media (max-width: 1024px) {
   .hero-title { font-size: 3.5rem; }
