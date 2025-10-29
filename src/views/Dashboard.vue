@@ -94,6 +94,7 @@
               <div class="action-icon">➕</div>
               <h3>Create New Ticket</h3>
               <p>Start a new ticket quickly</p>
+              
             </router-link>
             <button class="action-card animated-rotateIn" @click="showToast('Search feature coming soon!')">
               <div class="action-icon">🔍</div>
@@ -122,8 +123,8 @@
             <h3 class="profile-name">Welcome, {{ profileData.name || 'User' }}!</h3>
             <p class="profile-email">{{ profileData.email || 'user@example.com' }}</p>
             <div class="profile-stats">
-              <span class="profile-stat">Tickets Assigned: 5</span>
-              <span class="profile-stat">Tickets Resolved: 12</span>
+              <span class="profile-stat">Tickets Assigned: 0</span>
+              <span class="profile-stat">Tickets Resolved: 0</span>
             </div>
             <button class="profile-btn animated-pulse" @click="setShowProfileModal(true)">Edit Profile</button>
           </div>

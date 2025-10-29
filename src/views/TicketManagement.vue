@@ -7,7 +7,7 @@
           <div class="header-actions">
             <router-link to="/dashboard" class="back-btn animated-bounce">Back to Dashboard</router-link>
             <button class="new-ticket-btn animated-bounce" @click="setActiveTab('create')">+ New Ticket</button>
-            <button class="logout-btn animated-pulse" @click="handleLogout">Logout</button>
+           
           </div>
         </div>
       </div>
